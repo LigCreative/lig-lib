@@ -1,0 +1,13 @@
+.button{
+	display: inline-block;
+	background: #eee;
+	padding: 10px;
+
+	&:hover{
+		background: #ddd
+	}
+
+	&.button-sm{ font-size: 0.75rem; }
+	&.button-lg{ font-size: 1.25rem; }
+	&.button-xl{ font-style: 1.5rem; }
+}
