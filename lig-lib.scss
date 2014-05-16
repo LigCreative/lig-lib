@@ -15,7 +15,7 @@ Base Imports
 - variables.scss
 - mixins.scss
 - placeholders.scss
-- lib/normalize.scss
+- normalize.scss
 - typography.scss
 - grid.scss
 - wordpress.scss
@@ -23,17 +23,17 @@ Base Imports
 @import 'scss/base/base';
 
 /*----------------
-Content Global
+Content - Global
 - theme.scss
 - header.scss
 - footer.scss
 - content.scss
--- Modules
+- / Modules
 ----------------*/
 @import 'scss/content/global/global.scss';
 
 /*----------------
-Content Pages
+Content - Pages
 - home.scss
 ----------------*/
 @import 'scss/content/pages/pages.scss';

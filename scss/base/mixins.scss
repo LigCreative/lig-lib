@@ -1,0 +1,10 @@
+/*----------------
+Media Queries Mixin
+----------------*/
+@mixin bp($dir, $point) {
+  @if $dir == min {
+    @media ( min-width: $point ) { @content; }
+  } @else {
+    @media ( max-width: $point - 1 ) { @content; }
+  }
+}

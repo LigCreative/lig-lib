@@ -1,0 +1,61 @@
+/*----------------
+Clearfix
+----------------*/
+%clearfix,
+.clearfix{
+	&:after{
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+/*----------------
+Hidden
+----------------*/
+%hide,
+.hide{
+	display: none;
+}
+// Small
+%hide-sm,
+.hide-sm{
+	@include bp( max, $bp-md ) {
+		display: none;
+	}
+}
+// Medium
+%hide-md,
+.hide-md{
+	@include bp( max, $bp-lg ) {
+		display: none;
+	}
+}
+// Large
+%hide-lg,
+.hide-lg{
+	@include bp( min, $bp-lg ) {
+		display: none;
+	}
+}
+// Medium
+%hide-xl,
+.hide-xl{
+	@include bp( min, $bp-xl ) {
+		display: none;
+	}
+}
+
+/*----------------
+Floats
+----------------*/
+// Right
+%fr,
+.fr{
+	float: right;
+}
+// Left
+%fl,
+.fl{
+	float: left;
+}
