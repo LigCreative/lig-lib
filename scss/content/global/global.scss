@@ -8,7 +8,8 @@ Globals
 
 /*----------------
 Modules
+- alert.scss
+- button.scss
+- form.scss
 ----------------*/
-@import 'button';
-@import 'form';
-@import 'alert';
+@import 'modules/modules';

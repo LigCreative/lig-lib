@@ -11,29 +11,30 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /*----------------
-Initial Imports
-- Variables
-- Mixins
-- Placeholders
-- Normalize
-- Typography
-- Grid
+Base Imports
+- variables.scss
+- mixins.scss
+- placeholders.scss
+- lib/normalize.scss
+- typography.scss
+- grid.scss
+- wordpress.scss
 ----------------*/
 @import 'scss/base/base';
 
 /*----------------
-Content
-- Theme
-- Header
-- Footer
-- Content
+Content Global
+- theme.scss
+- header.scss
+- footer.scss
+- content.scss
 -- Modules
 ----------------*/
 @import 'scss/content/global/global.scss';
 
 /*----------------
-Pages
-- Home
+Content Pages
+- home.scss
 ----------------*/
 @import 'scss/content/pages/pages.scss';
 
