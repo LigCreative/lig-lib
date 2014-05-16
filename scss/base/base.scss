@@ -1,2 +1,18 @@
+/*----------------
+Variables & Mixins & Placeholders - Oh My!
+----------------*/
+@import 'variables';
+@import 'mixins';
+@import 'placeholders';
+
+/*----------------
+Libraries
+----------------*/
 @import 'lib/normalize';
+
+/*----------------
+The Base
+----------------*/
 @import 'typography';
+@import 'grid';
+@import 'wordpress';
